@@ -1,0 +1,32 @@
+title: Lasting Change Counseling PLLC
+name: Jillian Tosta
+email: jillian@lastingchangecounseling.org
+phone: +1 (970) 670-0531
+address: |-
+  1800 30th Street
+  Suite 212
+  Boulder, CO 80301
+description: >-
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: ""
+url: "http://lastingchangecounseling.org"
+
+# Social
+# twitter_username: jekyllrb
+# github_username:  jekyll
+
+theme: minima
+
+plugins:
+  - jekyll-feed
+
+collections:
+  services:
+    label: Services
+    output: true
+
+
+exclude:
+  - README.md

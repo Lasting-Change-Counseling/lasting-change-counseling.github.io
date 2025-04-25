@@ -1,18 +1,18 @@
 ---
-layout: page
-title: Contact
+layout: single
+title: Ready To Talk?
 permalink: /contact/
+author_profile: true
 ---
 
-TODO: 
- - [ ] [Clear and accessible contact Info](https://www.joinheard.com/articles/11-must-haves-for-your-therapy-website-tips-from-experts#clear-and-accessible-contact-info)
- - [ ] Form doesn't work yet
+I offer a no pressure, free 20 minute phone consultation to see if it would be a
+good fit to work together.
 
 {{ site.title }} <br />
 {{ site.name }} <br />
-[{{ site.address }}](http://maps.google.com/?q={{ site.address }}) <br />
-[{{ site.email }}](mailto:{{ site.email }}) <br />
-[{{ site.phone }}](tel:{{ site.phone }}) <br />
+[{{ site.author.address }}](http://maps.google.com/?q={{ site.author.address }}) <br />
+[{{ site.author.email }}](mailto:{{ site.author.email }}) <br />
+[{{ site.author.phone }}](tel:{{ site.author.phone }}) <br />
 
 <form class="" target="_blank" enctype="multipart/form-data" action="https://formkeep.com/f/exampletoken" accept-charset="UTF-8" method="post">
   <fieldset>
@@ -38,8 +38,8 @@ TODO:
 
     <label for="Reason">Reason *</label>
     <select name="Reason" id="Reason" required="required" class="form-control">
-      <option value="">Choose</option>
       <option value="Appointment">Book an appointment</option>
+      <option value="Consultation" selected>Schedule a free consultation</option>
       <option value="Information">Request more information</option>
       <option value="Other">Other</option>
     </select>
